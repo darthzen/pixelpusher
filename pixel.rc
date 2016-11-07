@@ -2,29 +2,32 @@ ether=192.168.13.8
 netmask=255.255.255.0
 gateway=192.168.13.1
 
-pixels=96
+pixels=256
 stripsattached=6
 
+ws28delay=7
+onewire=1
+
 strip1=ws2811
-order1=grb
+order1=rgb
 start1=ff0000
 
 strip2=ws2811
-order2=grb
+order2=rgb
 start2=00ff00
 
 strip3=ws2811
-order3=grb
+order3=rgb
 start3=0000ff
 
 strip4=ws2811
-order4=grb
+order4=rgb
 start4=ff00ff
 
 strip5=ws2811
-order5=grb
+order5=rgb
 start5=f0f0f0
 
 strip6=ws2811
-order6=grb
+order6=rgb
 start6=ffffff
